@@ -70,6 +70,13 @@ const experience = [
       'Completed a Bachelor of Science in Information Technology with a focus on software development, web technologies, and practical system building.',
   },
   {
+    title: 'Software Developer',
+    organization: 'Yoshii Software Solution Philippines Corporation',
+    period: 'Aug 2025 - Dec 2025',
+    description:
+      'Developed and maintained internal business applications to automate manual workflows and increase daily operational efficiency for staff members.'
+  },
+  {
     title: 'Full-Stack Project Builder',
     organization: 'SideQuest',
     period: 'Current',
