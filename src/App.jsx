@@ -10,7 +10,7 @@ import {
   Sparkles,
 } from 'lucide-react';
 
-import profilePhoto from '../dist/assets/Profile.png';
+import profilePhoto from './assets/Profile.png';
 
 const profile = {
   name: 'Nikko',
