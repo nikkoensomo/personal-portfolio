@@ -10,12 +10,14 @@ import {
   Sparkles,
 } from 'lucide-react';
 
+import profilePhoto from '../dist/assets/Profile.png';
+
 const profile = {
   name: 'Nikko',
   role: 'Full-Stack Web Developer',
   location: 'Cebu, Philippines',
-  email: 'your.email@example.com',
-  github: 'https://github.com/your-username',
+  email: 'nikkoensomo.work@gmail.com',
+  github: 'github.com/nikkoensomo',
   resume: '#',
 };
 
@@ -42,8 +44,8 @@ const projects = [
       'Implemented ownership checks, route protection, and frontend state updates after API actions.',
     ],
     stack: ['React', 'Tailwind CSS', 'Node.js', 'Express', 'MongoDB'],
-    repo: '#',
-    demo: '#',
+    repo: 'https://github.com/nikkoensomo/side-quest',
+    demo: 'https://side-quest-sooty.vercel.app',
   },
   {
     title: 'Portfolio Website',
@@ -149,9 +151,7 @@ function Hero() {
 
           <p className="mt-6 max-w-2xl text-base leading-7 text-gray-600 sm:text-lg">
             I am a BSIT graduate from the University of San Carlos focused on
-            building clean, useful full-stack applications. My current project is
-            SideQuest, a MERN app for posting, accepting, and completing local
-            quests.
+            building clean, useful full-stack applications.
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row">
@@ -175,7 +175,11 @@ function Hero() {
           <div className="rounded-lg bg-white p-5 shadow-sm">
             <div className="flex items-center gap-4">
               <div className="flex h-16 w-16 items-center justify-center rounded-lg bg-zinc-950 text-xl font-bold text-white">
-                N
+                <img
+                  src={profilePhoto}
+                  alt="Nikko Ensomo"
+                  className="h-16 w-16 rounded-lg object-cover"
+                />
               </div>
               <div>
                 <h2 className="text-xl font-semibold text-zinc-950">{profile.name}</h2>
