@@ -17,7 +17,7 @@ const profile = {
   role: 'Full-Stack Web Developer',
   location: 'Cebu, Philippines',
   email: 'nikkoensomo.work@gmail.com',
-  github: 'github.com/nikkoensomo',
+  github: 'https://github.com/nikkoensomo',
   resume: '#',
 };
 
