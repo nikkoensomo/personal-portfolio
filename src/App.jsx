@@ -58,7 +58,7 @@ const projects = [
       'Structured as a lightweight Vite React app for fast development and deployment.',
     ],
     stack: ['React', 'Tailwind CSS', 'Vite'],
-    repo: '#',
+    repo: 'https://github.com/nikkoensomo/personal-portfolio',
     demo: '#',
   },
 ];
